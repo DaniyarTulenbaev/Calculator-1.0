@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Phudu&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(11, 16, 29);
+}
+
+.name1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Kanit;
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+/* кнопки математических действий*/
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Kanit;
+}
+
+.conteiner button {
+    margin: 0 5px;
+    margin-top: 10px;
+    font-size: 25px;
+    border: 2px solid rgb(101, 101, 101);
+    border-radius: 10px;
+    width: 60px;
+    height: 40px;
+    background-color: rgb(204, 204, 204);
+    transition: 0.2s;
+}
+
+.conteiner button:hover {
+    border: 2px solid rgb(204, 204, 204);
+    background-color: rgb(101, 101, 101);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+/* кнопки ввода */
+.inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.inputs input {
+    margin: 0 5px;
+    text-align: center;
+    font-size: 23px;
+    font-family: Kanit;
+    background-color: rgb(204, 204, 204);
+    border-radius: 10px;
+    width: 135px;
+    height: 40px;
+    transition: 0.2s;
+}
+
+.inputs input:focus{
+    background-color: rgb(100, 100, 100);
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+/* кнопка вычисления */
+
+.calc1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.calc1 button {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-family: Kanit;
+    font-size: 15px;
+    color: rgb(205, 205, 205);
+    width: 100px;
+    height: 70px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+    border: 2px solid rgb(205, 205, 205);
+    transition: 0.2s;
+}
+
+.calc1 button:hover {
+    border: 2px solid rgb(37, 37, 37);
+    background-color: rgb(205, 205, 205);
+    color: rgb(37, 37, 37);
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+/* результат */
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: Kanit;
+    font-size: 25px;
+}
+
+.textResult {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 200px;
+    background-color: rgb(204, 204, 204);
+    border-radius: 10px;
+    border: 2px solid rgb(101, 101, 101);
+}
+
+.textResult p {
+    position: absolute;
+    padding-top: 35px;
+}
